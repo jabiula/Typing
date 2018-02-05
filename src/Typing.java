@@ -8,7 +8,7 @@ public class Typing {
 		Keyboard kb = new Keyboard(lang);
 		
 		if(lang==1)
-			title="नेपाली Keyboard";
+			title="नेपाली किबोर्ड ";
 		else
 			title="English Keyboard";
 		
