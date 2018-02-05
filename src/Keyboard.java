@@ -67,7 +67,7 @@ public class Keyboard extends JPanel implements KeyListener{
 	}
 	public void paint(Graphics g)
 	{
-		g.setColor(Color.blue);
+		g.setColor(Color.green);
 		g.fillRect(0, 0, 728, 300);
 		for(int row=0;row<5;row++)
 		{
