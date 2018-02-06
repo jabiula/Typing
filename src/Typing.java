@@ -4,9 +4,17 @@ public class Typing {
 
 	public static void main(String[] args) {
 		
-		Keyboard kb = new Keyboard(Language.English);
+		JFrame window;
+		Language currentLang = Language.Nepali;
+
+		Keyboard kb = new Keyboard(currentLang);
 		
-		JFrame window = new JFrame("keyboard color changed by mohammad");
+
+		if(currentLang==Language.English)
+			window = new JFrame("English Keyboard");
+		else
+			window = new JFrame("नेपाली किबोर्ड");
+
 		window.add(kb);
 		window.setSize(728,300);
 		window.setDefaultCloseOperation(3);
