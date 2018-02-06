@@ -9,6 +9,7 @@ public class Typing {
 
 		Keyboard kb = new Keyboard(currentLang);
 		
+
 		if(currentLang==Language.English)
 			window = new JFrame("English Keyboard");
 		else
