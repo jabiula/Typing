@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 public class Keyboard extends JPanel implements KeyListener{
 
 //	Key a = new Key(40, "A", "a", new Point(10,10));
+	Color bgcolor = new Color(162, 166, 173);
 	KeyText text[][][]= 
 	{
 		{
@@ -29,18 +30,23 @@ public class Keyboard extends JPanel implements KeyListener{
 	};
 		
 	Key keys[][];
-	int x,y,lang;
+	int x,y,l;
 	boolean isOn;
-	public Keyboard(int lang)
+	public Keyboard(Language lang)
 	{
 		x=y=8;
 		keys = new Key[5][14];
+//		if(lang==Language.English)
+//			l=0;
+//		else
+//			l=1;
+		l=(lang==Language.English)?0:1;
 		for(int row=0;row<5;row++)
 		{
 			x=8;
 			for(int col=0;col<14;col++)
 			{
-				KeyText t = text[lang][row][col];
+				KeyText t = text[l][row][col];
 				keys[row][col]=new Key(t.getSize(),t.getUpper(),t.getLower(),new Point(x,y));
 				x+=t.getSize()+8;
 			}
@@ -67,13 +73,12 @@ public class Keyboard extends JPanel implements KeyListener{
 	}
 	public void paint(Graphics g)
 	{
-		g.setColor(Color.green);
+		g.setColor(bgcolor);
 		g.fillRect(0, 0, 728, 300);
 		for(int row=0;row<5;row++)
 		{
 			for(int col=0;col<14;col++)
 			{
-				
 				keys[row][col].paint(g);
 			}
 		}

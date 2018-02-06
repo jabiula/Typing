@@ -21,6 +21,7 @@ public class Key {
 		this.width = width;
 		this.upper = upper;
 		this.lower = lower;
+
 		this.bgColor = new Color(197, 208, 216);
 		this.location = location;
 		fontColor=Color.black;

@@ -3,16 +3,10 @@ import javax.swing.JFrame;
 public class Typing {
 
 	public static void main(String[] args) {
-		int lang = 1;
-		String title;
-		Keyboard kb = new Keyboard(lang);
 		
-		if(lang==1)
-			title="नेपाली किबोर्ड ";
-		else
-			title="English Keyboard";
+		Keyboard kb = new Keyboard(Language.English);
 		
-		JFrame window = new JFrame(title);
+		JFrame window = new JFrame("Keyboard");
 		window.add(kb);
 		window.setSize(728,300);
 		window.setDefaultCloseOperation(3);
