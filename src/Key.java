@@ -63,12 +63,12 @@ public class Key {
 										   //Graphics object cannot have line thickness. 
 			
 			g.setColor(bgColor);//Background Color
-			g.fillRoundRect(location.x, location.y, width, 40, 20, 20);//Background
+			g.fillRoundRect(location.x, location.y, width, 40, 0, 0);//Background
 			
 			
 			gd.setStroke(new BasicStroke(2F));//Border size set.
 			gd.setColor(Color.white);//Border Color
-			gd.drawRoundRect(location.x, location.y, width, 40, 20, 20);//Border
+			gd.drawRoundRect(location.x, location.y, width, 40, 0, 0);//Border
 			
 			g.setFont(font);//Customized font set.
 			g.setColor(fontColor);//Font Color.
