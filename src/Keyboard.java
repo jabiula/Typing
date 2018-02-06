@@ -20,6 +20,7 @@ public class Keyboard extends JPanel implements KeyListener{
 			{new KeyText("  Shift","  Shift",100),new KeyText("Z","z",40),new KeyText("X","x",40),new KeyText("C","c",40),new KeyText("V","v",40),new KeyText("B","b",40),new KeyText("N","n",40),new KeyText("M","m",40),new KeyText("<",",",40),new KeyText(">",".",40),new KeyText("?","/",40),new KeyText("    Shift","    Shift",123),new KeyText(">","<",80),new KeyText("","",40)},
 			{new KeyText("Ctrl","Ctrl",80),new KeyText("fn","fn",0),new KeyText("start","start",0),new KeyText("Alt","Alt",60),new KeyText("                       Space","                       Space",370),new KeyText("Alt","Alt",60),new KeyText("","",8),new KeyText("Ctrl","Ctrl",80),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40)}
 		},
+
 		{
 			{new KeyText("","",40),new KeyText("ज्ञ","१",40),new KeyText("","२",40),new KeyText("घ","३",40),new KeyText("","४",40),new KeyText("छ","५",40),new KeyText("ट","६",40),new KeyText("ठ","७",40),new KeyText("ड","८",40),new KeyText("ढ","९",40),new KeyText("","०",40),new KeyText("","-",40),new KeyText("","=",40),new KeyText("  Back","  Back",89)},
 			{new KeyText("Tab","Tab",60),new KeyText("त्त","",40),new KeyText("","ध",40),new KeyText("","भ",40),new KeyText("","च",40),new KeyText("","त",40),new KeyText("","थ",40),new KeyText("","ग",40),new KeyText("","",40),new KeyText("इ","य",40),new KeyText("ए","उ",40),new KeyText("{","[",40),new KeyText("}","]",40),new KeyText("Enter","Enter",70)},

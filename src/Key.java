@@ -22,7 +22,7 @@ public class Key {
 		this.upper = upper;
 		this.lower = lower;
 
-		this.bgColor = new Color(197, 208, 216);
+		this.bgColor = new Color(197,208,216);
 		this.location = location;
 		fontColor=Color.black;
 		current = lower;
@@ -42,7 +42,7 @@ public class Key {
 	
 	public void press()
 	{
-		bgColor = new Color(67, 73, 67);
+		bgColor = new Color(67,73,67);
 		fontColor=Color.white;
 	}
 	public void release()
