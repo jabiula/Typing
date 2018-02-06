@@ -72,7 +72,7 @@ public class Key {
 			
 			g.setFont(font);//Customized font set.
 			g.setColor(fontColor);//Font Color.
-			g.drawString(current, location.x+15, location.y+25);
+			g.drawString(current, location.x, location.y+25);
 		}
 	}
 	
