@@ -6,7 +6,7 @@ public class Typing {
 		
 		Keyboard kb = new Keyboard(Language.English);
 		
-		JFrame window = new JFrame("English Keyboard by atish key");
+		JFrame window = new JFrame("English Keyboard by atishjava");
 		window.add(kb);
 		window.setSize(728,300);
 		window.setDefaultCloseOperation(3);
