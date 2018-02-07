@@ -843,7 +843,7 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					case 10:
 						keys[1][13].release();
 						break;
-					case 20:
+					case 65509:
 						keys[2][0].release();
 						break;
 					case 65:
@@ -876,38 +876,38 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					case 59:
 						keys[2][10].release();
 						break;
-					case 222:
+					case 39:
 						keys[2][11].release();
 						break;
-					case 92:
+					case 65293:
 						keys[2][12].release();
 						break;
-					case 16:
+					case 65505:
 						keys[3][11].release();
 						keys[3][0].release();
 						break;
-					case 153:
+					case 655051:
 						keys[3][13].release();
 						break;
-					case 90:
+					case 122:
 						keys[3][1].release();
 						break;
-					case 88:
+					case 120:
 						keys[3][2].release();
 						break;
-					case 67:
+					case 99:
 						keys[3][3].release();
 						break;
-					case 86:
+					case 118:
 						keys[3][4].release();
 						break;
-					case 66:
+					case 98:
 						keys[3][5].release();
 						break;
-					case 78:
+					case 110:
 						keys[3][6].release();
 						break;
-					case 77:
+					case 109:
 						keys[3][7].release();
 						break;
 					case 44:
@@ -922,7 +922,7 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 //					case 16:
 //						keys[3][12].release();
 //						break;
-					case 17:
+					case 65507:
 						keys[4][0].release();
 						keys[4][7].release();
 						break;
@@ -934,8 +934,11 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					case 32:
 						keys[4][4].release();
 						break;
-					case 18:
+					case 65513:
 						keys[4][3].release();
+						
+						break;
+					case 65514:
 						keys[4][5].release();
 						break;
 //					case 17:
