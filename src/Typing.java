@@ -1,4 +1,7 @@
 import javax.swing.JFrame;
+
+import org.jnativehook.GlobalScreen;
+import org.jnativehook.NativeHookException;
 /**
  * @author Infinite Tech Solution Pvt. Ltd
  * @version 1.0
@@ -8,6 +11,19 @@ import javax.swing.JFrame;
 public class Typing {
 
 	public static void main(String[] args) {
+		/*
+		 *Global key listener 
+		 */
+		try {
+			GlobalScreen.registerNativeHook();
+		}
+		catch (NativeHookException ex) {
+			System.err.println("There was a problem registering the native hook.");
+			System.err.println(ex.getMessage());
+
+			System.exit(1);
+		}
+
 		
 		JFrame window;
 		Language currentLang = Language.Nepali;
@@ -21,12 +37,12 @@ public class Typing {
 			window = new JFrame("नेपाली किबोर्ड");//set title of the window to Nepali
 
 		window.add(kb);
-		window.setSize(728,278);
+		window.setSize(728,282);
 		window.setDefaultCloseOperation(3);
 		window.setVisible(true);
 		window.setLocationRelativeTo(null);
 		window.addKeyListener(kb);
-		
-	}
-
+		window.addWindowFocusListener(kb);
+		GlobalScreen.addNativeKeyListener(kb);
+	}        
 }
