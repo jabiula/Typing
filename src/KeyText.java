@@ -11,7 +11,7 @@ int size; //stores the size of the key
 
 
 /**
- * 
+ * Contructor needs upper symbol (When Shift is pressed), lower symbol and size of the key
  * @param upper Letter to show when shift key is pressed.
  * @param lower Letter to show when shift key is not pressed.
  * @param size Width of the key

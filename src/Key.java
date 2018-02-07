@@ -38,16 +38,16 @@ public class Key {
 	{
 		current = upper;
 	}
-	public void turnLower()
+	public void turnLower()//changes keys to lower
 	{
 		current = lower;
 	}
-	public void hide()
+	public void hide()//Hide unnecessary keys from keyboard
 	{
 		hide=true;
 	}
 	
-	public void press()
+	public void press()//Turns keyboard key color to white.
 	{
 		bgColor = new Color(67,73,67);
 		fontColor=Color.white;

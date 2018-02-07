@@ -16,9 +16,9 @@ public class Typing {
 		
 
 		if(currentLang==Language.English)
-			window = new JFrame("English Keyboard");
+			window = new JFrame("English Keyboard");//sets title of the window to English
 		else
-			window = new JFrame("नेपाली किबोर्ड");
+			window = new JFrame("नेपाली किबोर्ड");//set title of the window to Nepali
 
 		window.add(kb);
 		window.setSize(728,278);
