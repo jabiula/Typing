@@ -542,9 +542,9 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					}
 				}
 				
-				switch(event.getKeyCode())
+				switch(event.getRawCode())
 				{
-					case 192:
+					case 96:
 						keys[0][0].press();
 						break;
 					case 49:
@@ -583,41 +583,41 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					case 61:
 						keys[0][12].press();
 						break;
-					case 8:
+					case 65288:
 						keys[0][13].press();
 						break;
 						//Tab is missing
-					case KeyEvent.VK_TAB:
+					case 65289:
 						keys[1][0].press();
 						break;
-					case 81:
+					case 113:
 						keys[1][1].press();
 						break;
-					case 87:
+					case 119:
 						keys[1][2].press();
 						break;
-					case 69:
+					case 101:
 						keys[1][3].press();
 						break;
-					case 82:
+					case 114:
 						keys[1][4].press();
 						break;
-					case 84:
+					case 116:
 						keys[1][5].press();
 						break;
-					case 89:
+					case 121:
 						keys[1][6].press();
 						break;
-					case 85:
+					case 117:
 						keys[1][7].press();
 						break;
-					case 73:
+					case 105:
 						keys[1][8].press();
 						break;
-					case 79:
+					case 111:
 						keys[1][9].press();
 						break;
-					case 80:
+					case 112:
 						keys[1][10].press();
 						break;
 					case 91:
@@ -626,7 +626,7 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					case 93:
 						keys[1][12].press();
 						break;
-					case 10:
+					case 92:
 						keys[1][13].press();
 						break;
 					case 20:
@@ -665,7 +665,7 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 					case 222:
 						keys[2][11].press();
 						break;
-					case 92:
+					case 921:
 						keys[2][12].press();
 						break;
 					case 16:

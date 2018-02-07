@@ -1,11 +1,10 @@
-import java.awt.BasicStroke;
 /**
  * @author Infinite Tech Solution Pvt. Ltd
  * @version 1.0
  * @since 2018
  * {@link http://www.itspl.com.np/}
  */
-
+import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
