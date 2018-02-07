@@ -946,7 +946,7 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 		}
 	}
 	@Override
-	public void windowGainedFocus(WindowEvent arg0) {
+	public void windowGainedFocus(WindowEvent arg0) {//It is a function/method/behaviour...
 		// TODO Auto-generated method stub
 		isActive=true;
 	}
