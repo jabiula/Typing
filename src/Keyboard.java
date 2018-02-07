@@ -36,7 +36,7 @@ public class Keyboard extends JPanel implements KeyListener,NativeKeyListener,Wi
 		}
 	};
 		
-	private Key keys[][];
+	private Key keys[][]; //Array of all the keys
 	private int x,y,l;
 	private boolean isOn,isActive=false;
 	public Keyboard(Language lang)
