@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 public class Keyboard extends JPanel implements KeyListener{
 
-	Color bgcolor = new Color(162, 166, 173);
+	Color bgcolor = new Color(168, 168, 173);
 	KeyText text[][][]= 
 	{
 		{

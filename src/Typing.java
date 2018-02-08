@@ -21,7 +21,7 @@ public class Typing {
 			window = new JFrame("नेपाली किबोर्ड");//set title of the window to Nepali
 
 		window.add(kb);
-		window.setSize(800,300);
+		window.setSize(728,278);
 		window.setDefaultCloseOperation(3);
 		window.setVisible(true);
 		window.setLocationRelativeTo(null);

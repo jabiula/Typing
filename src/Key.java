@@ -55,7 +55,7 @@ public class Key {
 	public void release()
 	{
 		bgColor = new Color(197, 208, 216);
-		fontColor=Color.YELLOW;
+		fontColor=Color.black;
 	}
 	public void wrong()
 	{
@@ -74,7 +74,7 @@ public class Key {
 			
 			
 			gd.setStroke(new BasicStroke(2F));//Border size set.
-			gd.setColor(Color.white);//Border Color
+			gd.setColor(Color.black);//Border Color
 			gd.drawRoundRect(location.x, location.y, width, 40, 0, 0);//Border
 			
 			g.setFont(font);//Customized font set.
