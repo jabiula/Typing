@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 public class Keyboard extends JPanel implements KeyListener{
 
-	Color bgcolor = new Color(162, 166, 173);
+	Color bgcolor = new Color(27,214,176);
 	KeyText text[][][]= 
 	{
 		{
@@ -23,7 +23,7 @@ public class Keyboard extends JPanel implements KeyListener{
 		{
 
 			{new KeyText("  ञ","",40),new KeyText("  ज्ञ","   १",40),new KeyText("","   २",40),new KeyText("  घ","   ३",40),new KeyText("","   ४",40),new KeyText("  छ","   ५",40),new KeyText("   ट","   ६",40),new KeyText("   ठ","   ७",40),new KeyText("  ड","   ८",40),new KeyText("  ढ",  "   ९",40),new KeyText("","   ०",40),new KeyText("","   -",40),new KeyText("","  =",40),new KeyText("   Back","   Back",87)},
-			{new KeyText("  Tab","  Tab",60),new KeyText("  त्त","",40),new KeyText("","  ध",40),new KeyText("","  भ",40),new KeyText("","  च",40),new KeyText("","  त",40),new KeyText("","  थ",40),new KeyText("","  ग",40),new KeyText("","",40),new KeyText("  इ","  य",40),new KeyText("  ए","  उ",40),new KeyText("  {","  [",40),new KeyText("  }","  ]",40),new KeyText("  Enter","  Enter",67)},
+			{new KeyText("  Tab","  Tab",60),new KeyText("  त्त"," ",40),new KeyText("","  ध",40),new KeyText("","  भ",40),new KeyText("","  च",40),new KeyText("","  त",40),new KeyText("","  थ",40),new KeyText("","  ग",40),new KeyText("","",40),new KeyText("  इ","  य",40),new KeyText("  ए","  उ",40),new KeyText("  {","  [",40),new KeyText("  }","  ]",40),new KeyText("  Enter","  Enter",67)},
 			{new KeyText("  Caps","  Caps",74),new KeyText("","  ब",40),new KeyText("","  क",40),new KeyText("","  म",40),new KeyText("","  ",40),new KeyText("","  न",40),new KeyText("","  ज",40),new KeyText("","  व",40),new KeyText("","  प",40),new KeyText("  ी","   ि",40),new KeyText("   :","  स",40),new KeyText("   \"","   '",40),new KeyText("       |","       \\",102),new KeyText("hide","hide",40)},
 			{new KeyText("  Shift","  Shift",100),new KeyText("  श","",40),new KeyText("","  ह",40),new KeyText("  ऋ","  अ",40),new KeyText("","  ख",40),new KeyText("","  द",40),new KeyText("","  ल",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("  रु","    र",40),new KeyText("    Shift","    Shift",123),new KeyText("  >","  <",80),new KeyText("","",40)},
 			{new KeyText("  Ctrl","  Ctrl",80),new KeyText("  fn","  fn",10),new KeyText("  start","  start",0),new KeyText("  Alt","  Alt",60),new KeyText("                       Space","                       Space",370),new KeyText("  Alt","  Alt",50),new KeyText("","",18),new KeyText("  Ctrl","  Ctrl",68),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40),new KeyText("","",40)}

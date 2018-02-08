@@ -10,7 +10,7 @@ public class Typing {
 	public static void main(String[] args) {
 		
 		JFrame window;
-		Language currentLang = Language.Nepali;
+		Language currentLang = Language.English;
 
 		Keyboard kb = new Keyboard(currentLang);
 		

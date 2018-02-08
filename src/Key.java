@@ -1,17 +1,16 @@
 import java.awt.BasicStroke;
-/**
- * @author Infinite Tech Solution Pvt. Ltd
- * @version 1.0
- * @since 2018
- * {@link http://www.itspl.com.np/}
- */
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Point;
 
+/**
+ * @author Infinite Tech Solution Pvt. Ltd
+ * @version 1.0
+ * @since 2018
+ * {@link http://www.itspl.com.np/}
+ */
 public class Key {
 
 	int width;
