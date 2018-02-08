@@ -50,7 +50,7 @@ public class Key {
 	public void press()//Turns keyboard key color to white.
 	{
 		bgColor = new Color(67,73,67);
-		fontColor=Color.white;
+		fontColor=Color.BLACK;
 	}
 	public void release()
 	{
@@ -59,7 +59,7 @@ public class Key {
 	}
 	public void wrong()
 	{
-		bgColor = Color.red;
+		bgColor = Color.yellow;
 	}
 	
 	public void paint(Graphics g)
