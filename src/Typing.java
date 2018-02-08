@@ -10,7 +10,7 @@ public class Typing {
 	public static void main(String[] args) {
 		
 		JFrame window;
-		Language currentLang = Language.Nepali;
+		Language currentLang = Language.English;
 
 		Keyboard kb = new Keyboard(currentLang);
 		
@@ -21,7 +21,7 @@ public class Typing {
 			window = new JFrame("नेपाली किबोर्ड");//set title of the window to Nepali
 
 		window.add(kb);
-		window.setSize(728,278);
+		window.setSize(800,300);
 		window.setDefaultCloseOperation(3);
 		window.setVisible(true);
 		window.setLocationRelativeTo(null);

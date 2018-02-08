@@ -20,7 +20,7 @@ public class Key {
 	Point location;
 	boolean hide;
 	
-	Font font = new Font("TimesRoman", Font.PLAIN, 18);
+	Font font = new Font("TimesRoman", Font.BOLD, 18);
 	
 	public Key(int width, String upper, String lower, Point location) {
 		super();
@@ -31,7 +31,7 @@ public class Key {
 
 		this.bgColor = new Color(197,208,216);
 		this.location = location;
-		fontColor=Color.black;
+		fontColor=Color.BLACK;
 		current = lower;
 	}
 	public void turnUpper()
@@ -49,13 +49,13 @@ public class Key {
 	
 	public void press()//Turns keyboard key color to white.
 	{
-		bgColor = new Color(67,73,67);
+		bgColor = new Color(7, 7, 7);
 		fontColor=Color.white;
 	}
 	public void release()
 	{
 		bgColor = new Color(197, 208, 216);
-		fontColor=Color.black;
+		fontColor=Color.YELLOW;
 	}
 	public void wrong()
 	{
