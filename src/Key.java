@@ -19,7 +19,7 @@ public class Key {
 	Point location;
 	boolean hide;
 	
-	Font font = new Font("TimesRoman", Font.PLAIN, 18);
+	Font font = new Font("preeti", Font.BOLD, 20);
 	
 	public Key(int width, String upper, String lower, Point location) {
 		super();
