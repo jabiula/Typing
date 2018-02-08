@@ -20,7 +20,7 @@ public class Key {
 	Point location;
 	boolean hide;
 	
-	Font font = new Font("TimesRoman", Font.PLAIN, 18);
+	Font font = new Font("Preeti", Font.PLAIN, 18);
 	
 	public Key(int width, String upper, String lower, Point location) {
 		super();
@@ -59,7 +59,7 @@ public class Key {
 	}
 	public void wrong()
 	{
-		bgColor = Color.yellow;
+		bgColor = Color.WHITE;
 	}
 	
 	public void paint(Graphics g)
