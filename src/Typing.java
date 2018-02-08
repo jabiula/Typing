@@ -6,7 +6,6 @@ import javax.swing.JFrame;
  * {@link http://www.itspl.com.np/}
  */
 public class Typing {
-
 	public static void main(String[] args) {
 		
 		JFrame window;
